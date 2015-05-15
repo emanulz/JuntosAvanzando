@@ -11,7 +11,8 @@ def phone_default():
 #Cliente = Client
 
 class Cliente(models.Model):
-    name = models.CharField(max_length=255, verbose_name='Nombre del cliente')
+    name = models.CharField(max_length=255, verbose_name='Nombre')
+    last_name = models.CharField(max_length=255, verbose_name='Apellidos', null=True)
     phone_number = models.CharField(max_length=9, blank=True, null=True, default=phone_default,verbose_name='Número de teléfono')
     identification = models.CharField(max_length=255, blank=True, null=True, verbose_name='Cédula')
     adress = models.CharField(max_length=255, blank=True, null=True, verbose_name='Dirección')

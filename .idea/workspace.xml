@@ -1,46 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py" line="59" mnemonic="7" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="85cffa99-7a5f-449c-adf7-915ddcf00a04" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/models.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/views.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/models.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/views.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/models.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/views.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/models.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/views.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/models.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/views.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/models.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/views.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlPlanta/clientes/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/suit/templates/admin/change_list.html" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/suit/templates/admin/change_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlPlanta/clientes/models.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/suit/templates/admin/search_form.html" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/suit/templates/admin/search_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py" afterPath="$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py" afterPath="$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py" />
     </list>
     <ignored path="JuntosAvanzando.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +37,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7962747" vertical-offset="0" max-vertical-offset="2484">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.6018626" vertical-offset="1625" max-vertical-offset="2484">
+              <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -78,8 +47,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -88,8 +57,8 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -124,8 +93,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/clientes/models.py" />
-        <option value="$PROJECT_DIR$/controlPlanta/clientes/admin.py" />
         <option value="$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py" />
+        <option value="$PROJECT_DIR$/controlPlanta/clientes/models.py" />
+        <option value="$PROJECT_DIR$/controlPlanta/clientes/admin.py" />
         <option value="$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py" />
       </list>
     </option>
@@ -207,7 +177,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controlPlanta" />
+              <option name="myItemId" value="clientes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -473,7 +443,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -486,22 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
@@ -510,10 +464,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7962747" vertical-offset="0" max-vertical-offset="2484">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.6018626" vertical-offset="1625" max-vertical-offset="2484">
+          <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
           <folding />
         </state>
       </provider>

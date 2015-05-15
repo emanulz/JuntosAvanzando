@@ -54,10 +54,10 @@ SUIT_CONFIG = {
     'HEADER_DATE_FORMAT': 'l, j F Y', # Saturday, 16th March 2013
     'HEADER_TIME_FORMAT': 'h:i a'  ,     # 18:42
 
-    'MENU':(
-        {'app': 'clients', 'label': 'Clientes', 'icon':'icon-lock'},
-        {'app': 'products', 'label': 'Productos', 'icon':'icon-home'},
-        )  ,
+    #'MENU':(
+     #   {'app': 'clients', 'label': 'Clientes', 'icon':'icon-lock'},
+      #  {'app': 'products', 'label': 'Productos', 'icon':'icon-home'},
+       # )  ,
 
     'MENU_OPEN_FIRST_CHILD': True,
 
@@ -117,7 +117,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Costa_Rica'
 
 USE_I18N = True
 
