@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85cffa99-7a5f-449c-adf7-915ddcf00a04" name="Default" comment="" />
+    <list default="true" id="85cffa99-7a5f-449c-adf7-915ddcf00a04" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/migrations/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/models.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clientes/views.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/migrations/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/models.py" afterPath="$PROJECT_DIR$/controlPlanta/ventas/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/facturas/views.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/migrations/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/models.py" afterPath="$PROJECT_DIR$/controlPlanta/productos/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inventarios/views.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/migrations/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/models.py" afterPath="$PROJECT_DIR$/controlPlanta/lotes/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lotes/views.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/migrations/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/models.py" afterPath="$PROJECT_DIR$/controlPlanta/inventarios/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/productos/views.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/migrations/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/admin.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/migrations/__init__.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/models.py" afterPath="$PROJECT_DIR$/controlPlanta/facturas/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/tests.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ventas/views.py" afterPath="$PROJECT_DIR$/controlPlanta/clientes/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py" afterPath="$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py" afterPath="$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py" />
+    </list>
     <ignored path="JuntosAvanzando.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,11 +65,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clientes/models.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48195577" vertical-offset="0" max-vertical-offset="859">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.7962747" vertical-offset="0" max-vertical-offset="2484">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="librerias.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/librerias.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -44,6 +124,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/clientes/models.py" />
+        <option value="$PROJECT_DIR$/controlPlanta/clientes/admin.py" />
+        <option value="$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py" />
+        <option value="$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py" />
       </list>
     </option>
   </component>
@@ -106,7 +189,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientes" />
+              <option name="myItemId" value="controlPlanta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JuntosAvanzando" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JuntosAvanzando" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controlPlanta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controlPlanta" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -128,7 +229,194 @@
       <console-settings />
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controlPlanta" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JuntosAvanzando" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -185,15 +473,47 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clientes/models.py">
+    <entry file="file://$PROJECT_DIR$/librerias.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48195577" vertical-offset="0" max-vertical-offset="859">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlPlanta/clientes/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlPlanta/controlPlanta/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlPlanta/controlPlanta/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7962747" vertical-offset="0" max-vertical-offset="2484">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding />
         </state>
       </provider>

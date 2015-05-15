@@ -31,13 +31,38 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'clientes',
 )
+
+# #suits
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+
+TEMPLATE_CONTEXT_PROCESSORS = TCP + (
+    'django.core.context_processors.request',
+)
+
+SUIT_CONFIG = {
+
+    'ADMIN_NAME': 'Avanzando Juntos',
+    'HEADER_DATE_FORMAT': 'l, j F Y', # Saturday, 16th March 2013
+    'HEADER_TIME_FORMAT': 'h:i a'  ,     # 18:42
+
+    'MENU':(
+        {'app': 'clients', 'label': 'Clientes', 'icon':'icon-lock'},
+        {'app': 'products', 'label': 'Productos', 'icon':'icon-home'},
+        )  ,
+
+    'MENU_OPEN_FIRST_CHILD': True,
+
+   }
+
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -48,6 +73,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+
 )
 
 ROOT_URLCONF = 'controlPlanta.urls'
@@ -76,8 +102,12 @@ WSGI_APPLICATION = 'controlPlanta.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'JuntosAvanzando',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '/Applications/MAMP/tmp/mysql/mysql.sock',  # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
     }
 }
 
@@ -85,7 +115,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'UTC'
 
@@ -100,3 +130,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = "/Volumes/DATOS/Avanzando_Juntos/JuntosAvanzando/controlPlanta/static/"
