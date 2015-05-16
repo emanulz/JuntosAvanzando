@@ -4,4 +4,5 @@ from models import Cajero
 # Register your models here.
 @admin.register(Cajero)
 class CajeroAdmin(admin.ModelAdmin):
-    list_display = ('name','last_name','usernam')
+    list_display = ('id','name','last_name','identification','user')
+    search_fields = ('id', 'name', 'identification', 'user')

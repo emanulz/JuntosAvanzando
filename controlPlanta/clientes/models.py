@@ -21,7 +21,7 @@ class Cliente(models.Model):
     email = models.EmailField(blank=True, null=True)
     associated=models.BooleanField(default=0, verbose_name='Es asociado?')
     associated_code=models.PositiveIntegerField( null=True, blank=True,unique=True,verbose_name='Número de asociado')
-    def __str__(self):
+    def __unicode__(self):
         return self.name + " " + self.last_name
     class Meta:
         ordering=['id']

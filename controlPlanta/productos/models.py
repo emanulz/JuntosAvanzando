@@ -12,7 +12,7 @@ class Producto(models.Model):
     fractioned = models.BooleanField(default=0, blank=True, verbose_name='Fracionado?')
     taxes = models.BooleanField(default=0, verbose_name='Impuestos?')
     taxes_amount = models.FloatField(default=0, blank=True, verbose_name='% Impuestos')
-    category = models.ForeignKey('FamiliaDelProducto', default=1)
+    category = models.ForeignKey('FamiliaDelProducto', default=1,verbose_name='Familia')
 
     def __str__(self):
         return self.description
@@ -24,7 +24,7 @@ class Producto(models.Model):
 class FamiliaDelProducto(models.Model):
     name = models.CharField(max_length=255, verbose_name='nombre de la familia',unique=True)
 
-    def __str__(self):
+    def __unicode__(self):
         return self.name
     class Meta:
         verbose_name='Familia'

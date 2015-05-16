@@ -60,7 +60,7 @@ SUIT_CONFIG = {
         {'app': 'auth','label': 'Usuarios', 'icon':'icon-user'},
         {'app': 'productos', 'label': 'Productos', 'icon':'icon-gift'},
         {'app': 'clientes', 'label': 'Clientes', 'icon':'icon-briefcase'},
-        {'app': 'cajeros', 'label': 'Cajeros', 'icon':'icon-briefcase'},
+        {'app': 'cajeros', 'label': 'Cajeros', 'icon':'icon-th'},
 
     ),
 
