@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'clientes',
     'productos',
+    'cajeros',
 )
 
 # #suits
@@ -52,18 +53,20 @@ TEMPLATE_CONTEXT_PROCESSORS = TCP + (
 SUIT_CONFIG = {
 
     'ADMIN_NAME': 'Avanzando Juntos',
-    'HEADER_DATE_FORMAT': 'l, j F Y', # Saturday, 16th March 2013
-    'HEADER_TIME_FORMAT': 'h:i a'  ,     # 18:42
+    'HEADER_DATE_FORMAT': 'l, j F Y',  # Saturday, 16th March 2013
+    'HEADER_TIME_FORMAT': 'h:i a',  # 18:42
 
-    #'MENU':(
-     #   {'app': 'clients', 'label': 'Clientes', 'icon':'icon-lock'},
-      #  {'app': 'products', 'label': 'Productos', 'icon':'icon-home'},
-       # )  ,
+    'MENU': (
+        {'app': 'auth','label': 'Usuarios', 'icon':'icon-user'},
+        {'app': 'productos', 'label': 'Productos', 'icon':'icon-gift'},
+        {'app': 'clientes', 'label': 'Clientes', 'icon':'icon-briefcase'},
+        {'app': 'cajeros', 'label': 'Cajeros', 'icon':'icon-briefcase'},
+
+    ),
 
     'MENU_OPEN_FIRST_CHILD': True,
 
-   }
-
+}
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
